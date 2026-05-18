@@ -4,7 +4,7 @@ import { useState } from "react";
 
 export default function Gifts() {
   const [copied, setCopied] = useState(false);
-  const accountNumber = "0123456789";
+  const accountNumber = "6450005256";
 
   const handleCopy = () => {
     navigator.clipboard.writeText(accountNumber);
@@ -60,12 +60,12 @@ export default function Gifts() {
               <div className="space-y-8">
                 <div className="space-y-2">
                   <span className="text-xs uppercase tracking-widest text-stone-400">Bank Name</span>
-                  <p className="text-xl font-medium text-stone-800">GTBank (Guaranty Trust Bank)</p>
+                  <p className="text-xl font-medium text-stone-800">MoniePoint</p>
                 </div>
 
                 <div className="space-y-2">
                   <span className="text-xs uppercase tracking-widest text-stone-400">Account Name</span>
-                  <p className="text-xl font-medium text-stone-800">FAKDAN DANIEL & AKANDE BISOLA</p>
+                  <p className="text-xl font-medium text-stone-800">Lydia Oluwakayode</p>
                 </div>
 
                 <div className="space-y-2">
